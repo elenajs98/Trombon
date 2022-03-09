@@ -28,6 +28,135 @@
   color: #61dafb;
 }
 
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+html {
+  background-color: #e5e8e8;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+/*acabo de entender lo de el cambio de tamaños, con esto voy a poder corregir mazo cosas*/
+
+a {
+  color: black;
+  /*no me acuerdo de como se quitaba el subrayado del hv*/
+}
+#get-started {
+  text-align: center;
+  font-size: 25px;
+}
+#Features {
+  text-align: center;
+}
+.titulo {
+  font-size: 20px;
+}
+#Pricing {
+  align-items: center;
+}
+.caja {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: auto;
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.precio {
+  font-size: 22px;
+}
+footer > div {
+  display: flex;
+  justify-content: flex-end;
+}
+span {
+  color: #444;
+}
+footer {
+  margin-top: 10px;
+  background-color: #ddd;
+  padding: 10px;
+}
+a {
+  margin-left: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+button {
+  background-color: #f1c40f;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 0;
+  font-weight: 400;
+  max-width: 150px;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.btn {
+  background-color: #f1c40f;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 0;
+  font-weight: 400;
+  max-width: 150px;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.nombre {
+  background-color: #ddd;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: orange;
+  transition: background-color 1s;
+}
+#nav-bar {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /*estoy teniendo problemas con lo de alinearlo, la idea es que esté alineado a la derecha, pero que cuando se junte por falta de espacio, se centre*/
+}
+#how-it-works {
+  display: flex;
+  justify-content: center;
+}
+iframe {
+  max-width: 560px;
+  width: 100%;
+}
+img {
+  height: 100%;
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header {
+  min-height: 75px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  background-color: #eee;
+}
+/*tengo problemas con el encabezado, porque me tapa cosas, además de que no me queda igual*/
+/*también me está dadno problemas lo de reducir o ampliar la pantalla, debería de investigar si tiene algo que ver con <> */
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

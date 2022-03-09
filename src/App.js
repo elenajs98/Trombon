@@ -10,6 +10,7 @@ function App() {
   return (
     <>
     < Encabezado/>
+    <p>Ole Ole los caracoles</p>
     < Registro/>
     < Caracteristicas/>
     < Video/>
